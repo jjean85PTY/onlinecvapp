@@ -7,9 +7,12 @@ const path = require('path');
 
 
 // Initialize express
-const app = express();
-const port = 3000;
 
+const app = express();
+//const port = 3000;
+app.set('port', 3000);
+
+require('./database');
 
 // Setting up the routes
 app.get('/', (req, res) => {
@@ -29,8 +32,8 @@ app.use(multer({storage}).single('image'));
 app.use(express.urlencoded({extended: false}));
 
 //Start the server
-app.listen(port, () => {
-  console.log(`Example app listening at http://localhost:${port}`);
+app.listen(app.get('port'), () => {
+  console.log(`Example app listening at http://localhost:${app.get('port')}`);
   //console.log('Server is running on port', app.get('port'));
 });
 

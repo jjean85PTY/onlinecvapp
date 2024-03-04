@@ -25,5 +25,17 @@ mnongo db
 Instaldo:
 C:\Program Files\heroku
 
+Deployment: Usa terminal
+heroku open
+heroku logs --tail
+ mongo  cluster password:
+onlinecvusr
+onlinecvusr1234.
+
+mongodb+srv://onlinecvusr:onlinecvusr1234.@cluster0.b9woxup.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+
+C:\Program Files\MongoDB\Server\7.0\data\
+C:\Program Files\MongoDB\Server\7.0\log\
+
 Las salte
 https://www.youtube.com/watch?v=0Clbi-8EiLw&list=RDCMUCMn28O1sQGochG94HdlthbA&start_radio=1&rv=0Clbi-8EiLw&t=29
