@@ -1,0 +1,29 @@
+onlineCV:
+
+npm init -y
+npm i express mongoose morgan multer dotenv cross-env cors
+npm install -g npm@10.5.0
+npm i fs-extra
+
+Launch express
+PS C:\Users\jjean\Documents\Courses\develop\onlineCV> node .\backend\index.js
+
+
+npm i nodemon -D
+
+Ejecutar con nodemon
+npx nodemon .\backend\index.js
+
+PS C:\Users\jjean\Documents\Courses\develop\onlineCV> npm run dev
+
+Ejecuciion de webpack
+PS C:\Users\jjean\Documents\Courses\develop\onlineCV> npx webpack
+
+Pendiente: 
+mnongo db
+
+Instaldo:
+C:\Program Files\heroku
+
+Las salte
+https://www.youtube.com/watch?v=0Clbi-8EiLw&list=RDCMUCMn28O1sQGochG94HdlthbA&start_radio=1&rv=0Clbi-8EiLw&t=29
