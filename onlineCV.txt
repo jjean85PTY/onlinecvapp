@@ -13,6 +13,8 @@ npm i nodemon -D
 
 Ejecutar con nodemon
 npx nodemon .\backend\index.js
+npm run dev
+npm start --in production
 
 PS C:\Users\jjean\Documents\Courses\develop\onlineCV> npm run dev
 
@@ -36,6 +38,9 @@ mongodb+srv://onlinecvusr:onlinecvusr1234.@cluster0.b9woxup.mongodb.net/?retryWr
 
 C:\Program Files\MongoDB\Server\7.0\data\
 C:\Program Files\MongoDB\Server\7.0\log\
+
+API testing in Eclipse
+
 
 Las salte
 https://www.youtube.com/watch?v=0Clbi-8EiLw&list=RDCMUCMn28O1sQGochG94HdlthbA&start_radio=1&rv=0Clbi-8EiLw&t=29

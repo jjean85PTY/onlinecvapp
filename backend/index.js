@@ -1,4 +1,7 @@
-require('dotenv').config();
+if (process.env.NODE_ENV !== 'production') {
+  require('dotenv').config();
+}
+//console.log(process.env.NODE_ENV);
 
 const express = require('express');
 const morgan = require('morgan');
@@ -10,7 +13,7 @@ const path = require('path');
 
 const app = express();
 //const port = 3000;
-app.set('port', 3000);
+app.set('port', process.env.PORT || 3000);
 
 require('./database');
 
@@ -30,9 +33,13 @@ const storage = multer.diskStorage({
 
 app.use(multer({storage}).single('image'));
 app.use(express.urlencoded({extended: false}));
+app.use(express.json());
 
 // Routes
+app.use('/api/books', require('./routes/books'));
 
+// Static files
+app.use(express.static(path.join(__dirname, 'public')));
 
 //Start the server
 app.listen(app.get('port'), () => {
