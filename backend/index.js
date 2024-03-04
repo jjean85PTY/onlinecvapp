@@ -31,6 +31,9 @@ const storage = multer.diskStorage({
 app.use(multer({storage}).single('image'));
 app.use(express.urlencoded({extended: false}));
 
+// Routes
+
+
 //Start the server
 app.listen(app.get('port'), () => {
   console.log(`Example app listening at http://localhost:${app.get('port')}`);
