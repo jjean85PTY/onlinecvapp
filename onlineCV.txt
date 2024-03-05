@@ -61,13 +61,18 @@ https://www.youtube.com/watch?v=nm7gWyZvdVU  DONDE
 
 
 
-git
+git config
 [user]
 email = xprosautomation@zohomail.com 
 mname = xprosautomation
 [alias]
 	superlog = log --graph --abbrev-commit --decorate --date=relative --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(bold yellow)%d%C(reset)' --all
 
+
+Otro repo
+PS C:\Users\jjean\Documents\Courses\develop\onlineCV> git remote add origin https://github.com/jjean85PTY/onlinecvapp.git
+PS C:\Users\jjean\Documents\Courses\develop\onlineCV> git branch -M main
+PS C:\Users\jjean\Documents\Courses\develop\onlineCV> git push -u origin main
 
 
 
