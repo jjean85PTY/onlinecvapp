@@ -18,8 +18,8 @@ app.set('port', process.env.PORT || 3000);
 require('./database');
 
 // Setting up the routes
-app.get('/', (req, res) => {
-  res.send('Hello World!');
+app.get('./', (req, res) => {
+  res.send('Hello World from the backend');
 });
 
 // Middlewares

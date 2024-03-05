@@ -41,6 +41,20 @@ C:\Program Files\MongoDB\Server\7.0\log\
 
 API testing in Eclipse
 
+npm i webpack webpack-cli html-webpack-plugin css-loader style-loader mini-css-extract-plugin webpack-dev-server timeago.js -D
+
+PS C:\Users\jjean\Documents\Courses\develop\onlineCV> npm run server:dev
+
 
 Las salte
 https://www.youtube.com/watch?v=0Clbi-8EiLw&list=RDCMUCMn28O1sQGochG94HdlthbA&start_radio=1&rv=0Clbi-8EiLw&t=29
+
+resources:
+https://getbootstrap.com/
+https://bootswatch.com/
+animate css
+
+https://www.youtube.com/watch?v=hO9993I520E
+https://www.youtube.com/watch?v=cpIIANXEXaI
+https://www.youtube.com/watch?v=wS2xCdbsnyg&t=601s
+https://www.youtube.com/watch?v=nm7gWyZvdVU  DONDE
