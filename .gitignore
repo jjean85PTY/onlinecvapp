@@ -1,4 +1,4 @@
 node_modules
 .env
 onlineCV.txt
-backend/public/
+backend/public
